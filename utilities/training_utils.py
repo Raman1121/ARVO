@@ -23,7 +23,7 @@ import torchvision
 import torchvision.transforms as T
 from utilities import transforms
 from utilities import utils
-from data import HAM10000, fitzpatrick, papila, ol3i, oasis, chexpert, glaucoma
+from data import papila, glaucoma
 from torch.utils.data.sampler import SubsetRandomSampler
 from utilities.sampler import RASampler
 from torch import nn
