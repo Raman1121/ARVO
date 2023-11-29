@@ -166,8 +166,14 @@ def main(args):
     )
 
     MODEL_NAMES = {
+        "vgg19": "vgg19",
+        "inception": "inception_v4",
         "resnet50": "resnet50",
+        "rexnet_100": "rexnet_100",
         "densenet121": "densenet121",
+        "vovnet": "ese_vovnet19b_dw",
+        "mobilenetv3": "mobilenetv3_small_100",
+        "dpn":"dpn107",
         "nasnet": "nasnetalarge",
         "enet_b0": "efficientnet_b0",
         "enet_b3": "efficientnet_b3",
